@@ -14,5 +14,6 @@ jobs:
         with:
           dsn: ${{ secrets.SCOPE_DSN }}
           platform: macos
+          scheme: SwiftPM-Package
           codePath: true
           
