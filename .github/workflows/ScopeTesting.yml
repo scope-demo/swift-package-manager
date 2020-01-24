@@ -16,4 +16,7 @@ jobs:
           platform: macos
           scheme: SwiftPM-Package
           codePath: true
+        env:
+          SWIFTCI_USE_LOCAL_DEPS: true
+          SWIFTPM_LLBUILD_FWK: true
           
